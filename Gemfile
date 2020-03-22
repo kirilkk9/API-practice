@@ -32,8 +32,13 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 #bootstrap
-gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap', '~> 4.4', '>= 4.4.1'
 
+#sprockets
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+
+#jq
+gem 'jquery-rails'
 #excon
 gem 'excon'
 
